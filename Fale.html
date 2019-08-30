@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Fale Conosco</title>
+    <link rel="icon" href="img/logo.png">
+    <link rel="stylesheet" href="css/Fale.css"/>
+    <link rel="stylesheet" href="css/Geral.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <header>
+        <img src="img/logo.png" class="logoheader" width="80px" height="80px" href="Home.html">
+        <ul>
+            <a href="Home.html"><li>
+                Home
+            </li></a>
+            
+            <a href="conteudo.html"><li>
+                Conteúdo
+            </li></a>
+            
+            <a href="info.html"><li>
+                Informativo
+            </li></a>
+            
+            <a href="sobre.html"><li>
+                Quem somos
+            </li></a>
+
+        </ul>
+    </header>
+    <main>
+        
+        <form>
+            <h2 class="titulo">Formulario de envio</h2>
+            <div class="row">
+                <span>              
+                    <input class="slide-up" type="text" id="firstname">
+                    <label for="firstname">Nome Completo</label>
+                </span>  
+                <span>
+                    <input class="slide-up" type="email" id="email">
+                    <label for="email">E-mail</label>
+                </span>
+                <span>
+                    <textarea class="slide-up" id="msg" name="msg" cols="80" rows="5" style="resize: none;width: 100%;"></textarea>
+                    <label for="msg">Mensagem</label>
+                </span>
+                
+            </div>
+            <button class="button">Enviar</button>
+        </form>
+    </main>
+</body>
+<script src="js/Fale.js"></script>
+</html>
